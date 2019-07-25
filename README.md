@@ -2,17 +2,10 @@
 
 ![GitHub](https://img.shields.io/github/license/mmphego/read_time.svg)
 [![Build Status](https://img.shields.io/travis/mmphego/read_timesvg)](https://travis-ci.com/mmphego/read_time)
-
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/43713e0b78f547e8912ff05c9350cffb)](https://app.codacy.com/app/mmphego/read_time?utm_source=github.com&utm_medium=referral&utm_content=mmphego/read_time&utm_campaign=Badge_Grade_Dashboard)
-
-
 [![Python](https://img.shields.io/badge/Python-3.6%2B-red.svg)](https://www.python.org/downloads/)
-
-
 ![PyPI](https://img.shields.io/pypi/v/>read_time.svg?color=green&label=pypi%20release)
 ![PyPI - Downloads](https://img.shields.io/pypi/dm/read_time.svg?label=PyPi%20Downloads)
-
-
 [![saythanks](https://img.shields.io/badge/say-thanks-ff69b4.svg)](https://saythanks.io/to/mmphego)
 
 
