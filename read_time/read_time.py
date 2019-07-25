@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 
 """Main module."""
-import bs4
-
+from math import ceil
 from urllib.request import urlopen
 
+import bs4
 from loguru import logger
 
 # Words per minute
@@ -48,5 +48,5 @@ class ReadTime:
         texts = self.extract_text()
         filtered_text = self.filter_visible_text(texts)
         total_words = self.count_words_in_text(filtered_text, WORD_LENGTH)
-        guestimate = total_words / WPM
+        guestimate = ceil(total_words / WPM)
         return f"{guestimate:.2f} Min Read"
