@@ -19,7 +19,7 @@ install:
   - pip install -U .
 
 script:
-  - estimate_reading_time.py
+  - estimate_reading_time.py -u "https://blog.mphomphego.co.za/blog/2019/07/25/How-to-encrypt-multiple-files-with-Travis-CI.html"
 
 # command to run tests, e.g. python setup.py test
 after_script:

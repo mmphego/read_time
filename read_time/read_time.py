@@ -48,5 +48,4 @@ class ReadTime:
         texts = self.extract_text()
         filtered_text = self.filter_visible_text(texts)
         total_words = self.count_words_in_text(filtered_text, WORD_LENGTH)
-        guestimate = ceil(total_words / WPM)
-        return f"{guestimate:.2f} Min Read"
+        return ceil(total_words / WPM)
