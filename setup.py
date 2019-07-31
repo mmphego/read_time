@@ -17,7 +17,7 @@ AUTHOR = "Mpho Mphego"
 DESCRIPTION = "Estimate the reading time for you!"
 EMAIL = "mpho112@gmail.com"
 NAME = "read_time"
-REQUIRED = ["beautifulsoup4==4.7.1", "loguru"]
+REQUIRED = ["beautifulsoup4", "loguru"]
 
 REQUIRES_PYTHON = ">=3.6.0"
 URL = "https://github.com/mmphego/read_time"
